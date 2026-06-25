@@ -44,8 +44,8 @@
     "zip": "60064",
     "phone": "847-688-1900",
     "website": "https://www.va.gov/lovell-federal-health-care-va/locations/captain-james-a-lovell-federal-health-care-center/",
-    "lat": 42.3053635,
-    "lng": -87.8582642
+    "lat": 42.3077481,
+    "lng": -87.8606827
   },
   {
     "id": "18686199561",
@@ -80,8 +80,8 @@
     "zip": "77901",
     "phone": null,
     "website": "https://victoriafoot.com",
-    "lat": 28.8034714,
-    "lng": -96.9992071
+    "lat": 28.804317,
+    "lng": -96.999289
   },
   {
     "id": "14908838223",
@@ -128,8 +128,8 @@
     "zip": "85028",
     "phone": "1 (602) 973-3888",
     "website": "https://azfootdocs.com",
-    "lat": 33.5841825,
-    "lng": -112.0094655
+    "lat": 33.5841812,
+    "lng": -112.0094684
   },
   {
     "id": "16724807059",
@@ -176,8 +176,8 @@
     "zip": "69101",
     "phone": "+1 308-532-3600",
     "website": "https://gpfootandankle.com/",
-    "lat": 41.1269601,
-    "lng": -100.7701649
+    "lat": 41.13032,
+    "lng": -100.7702747
   },
   {
     "id": "18604304514",
@@ -260,8 +260,8 @@
     "zip": "75246",
     "phone": "+1 844-279-3627",
     "website": "bswhealth.com",
-    "lat": 32.7897864,
-    "lng": -96.7741522
+    "lat": 32.7899432,
+    "lng": -96.7779235
   },
   {
     "id": "18538818712",
@@ -296,8 +296,8 @@
     "zip": "79416",
     "phone": "+18067974985",
     "website": "www.greatbones.com",
-    "lat": 33.60323,
-    "lng": -101.913362
+    "lat": 33.593353,
+    "lng": -101.916419
   },
   {
     "id": "11575397705",
@@ -308,8 +308,8 @@
     "zip": "29526",
     "phone": "+18433477111",
     "website": "https://www.conwaymedicalcenter.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
-    "lat": 33.7849817,
-    "lng": -79.0006405
+    "lat": 33.7864995,
+    "lng": -79.00262
   },
   {
     "id": "5540780817",
@@ -322,6 +322,18 @@
     "website": "ascendantortho.org",
     "lat": 41.6833813,
     "lng": -86.2500066
+  },
+  {
+    "id": "11571550299",
+    "name": "Southern Indiana Orthopedics - Columbus, IN",
+    "address": "940 NORTH MARR RD. SUITE C",
+    "city": "COLUMBUS",
+    "state": "IN",
+    "zip": "47201",
+    "phone": "+18123769353",
+    "website": "https://www.southerninortho.com/",
+    "lat": 39.2014405,
+    "lng": -85.9213796
   },
   {
     "id": "18686233751",
@@ -368,8 +380,8 @@
     "zip": "60103",
     "phone": "6303721100",
     "website": "https://www.suburbanortho.com/locations/bartlett-illinois/?utm_source=GBP_intrepy&utm_medium=Suburb",
-    "lat": 41.9512993,
-    "lng": -88.1947725
+    "lat": 41.95106,
+    "lng": -88.206495
   },
   {
     "id": "17274830890",
@@ -392,8 +404,8 @@
     "zip": " 62906",
     "phone": "618-833-2295",
     "website": "https://www.deaconess.com/",
-    "lat": 37.4615136,
-    "lng": -89.2460201
+    "lat": 37.4648921,
+    "lng": -89.2449299
   },
   {
     "id": "11571533162",
@@ -456,18 +468,6 @@
     "lng": -84.7996573
   },
   {
-    "id": "10874916105",
-    "name": "New England Orthopedic Surgeons - Springfield, MA",
-    "address": "300 Birnie Avenue",
-    "city": "Springfield",
-    "state": "MA",
-    "zip": "01107",
-    "phone": "4137854666",
-    "website": "https://neortho.com",
-    "lat": 42.1214617,
-    "lng": -72.6107274
-  },
-  {
     "id": "18469078546",
     "name": "Erie County Medical Center (ECMC) - Buffalo, NY",
     "address": "462 Grider Street",
@@ -476,8 +476,8 @@
     "zip": "14215",
     "phone": "7168985216",
     "website": "ecmc.edu",
-    "lat": 42.9276244,
-    "lng": -78.830416
+    "lat": 42.9266228,
+    "lng": -78.8304193
   },
   {
     "id": "5388565170",
@@ -536,8 +536,8 @@
     "zip": "12203",
     "phone": "1 (518) 482-4321",
     "website": "https://albanypodiatry.com",
-    "lat": 42.6840322,
-    "lng": -73.8372098
+    "lat": 42.6839082,
+    "lng": -73.8373568
   },
   {
     "id": "18626610552",
@@ -550,6 +550,18 @@
     "website": "footandanklewi.com",
     "lat": 43.044419,
     "lng": -88.2550891
+  },
+  {
+    "id": "7187059366",
+    "name": "Hughston Clinic - Columbus, GA",
+    "address": "6262 Veterans Parkway",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31909",
+    "phone": "+1 706-324-6661",
+    "website": "https://hughston.com",
+    "lat": 32.5288762,
+    "lng": -84.9586512
   },
   {
     "id": "7186989734",
@@ -672,6 +684,18 @@
     "lng": -87.33256
   },
   {
+    "id": "17384179124",
+    "name": "Associated Podiatrists, P.C. - Novi, MI",
+    "address": "26750 Providence Park Suite 130",
+    "city": "Novi",
+    "state": "MI",
+    "zip": "48374",
+    "phone": "2483485300",
+    "website": "associatedpodiatristspc.com",
+    "lat": 42.48059,
+    "lng": -83.4754913
+  },
+  {
     "id": "5825962652",
     "name": "Joel D Foster, DPM - Lee's Summit, MO",
     "address": "6 Northeast Sycamore Street",
@@ -682,18 +706,6 @@
     "website": "joelfosterdpm.com",
     "lat": 38.933749,
     "lng": -94.3818809
-  },
-  {
-    "id": "7187059366",
-    "name": "Hughston Clinic - Columbus, GA",
-    "address": "6262 Veterans Parkway",
-    "city": "Columbus",
-    "state": "GA",
-    "zip": "31909",
-    "phone": "+1 706-324-6661",
-    "website": "https://hughston.com",
-    "lat": 32.5288762,
-    "lng": -84.9586512
   },
   {
     "id": "18686157718",
@@ -764,8 +776,8 @@
     "zip": "43210",
     "phone": "6142926446",
     "website": "https://wexnermedical.osu.edu/",
-    "lat": 39.9939925,
-    "lng": -83.020796
+    "lat": 39.9945116,
+    "lng": -83.0164788
   },
   {
     "id": "4173089498",
@@ -788,8 +800,8 @@
     "zip": "54915",
     "phone": "+18477299580",
     "website": "https://nsfootankle.com",
-    "lat": 42.0882531,
-    "lng": -87.8714337
+    "lat": 42.0864486,
+    "lng": -87.8698527
   },
   {
     "id": "15845426481",
@@ -814,30 +826,6 @@
     "website": "https://physiciansfootcare.com",
     "lat": 33.9204354,
     "lng": -80.3414693
-  },
-  {
-    "id": "11571550299",
-    "name": "Southern Indiana Orthopedics - Columbus, IN",
-    "address": "940 NORTH MARR RD. SUITE C",
-    "city": "COLUMBUS",
-    "state": "IN",
-    "zip": "47201",
-    "phone": "+18123769353",
-    "website": "https://www.southerninortho.com/",
-    "lat": 39.2014405,
-    "lng": -85.9213796
-  },
-  {
-    "id": "17384179124",
-    "name": "Associated Podiatrists, P.C. - Novi, MI",
-    "address": "26750 Providence Park Suite 130",
-    "city": "Novi",
-    "state": "MI",
-    "zip": "48374",
-    "phone": "2483485300",
-    "website": "associatedpodiatristspc.com",
-    "lat": 42.48059,
-    "lng": -83.4754913
   },
   {
     "id": "17700004522",
@@ -872,8 +860,8 @@
     "zip": "28806",
     "phone": "8283501880",
     "website": "https://moorefootandankle.com",
-    "lat": 35.5742604,
-    "lng": -82.6139439
+    "lat": 35.57426,
+    "lng": -82.6139434
   },
   {
     "id": "7167489449",
@@ -896,8 +884,8 @@
     "zip": "62062",
     "phone": "+16302619500",
     "website": "https://oakbrookpodiatrist.com/",
-    "lat": 41.8544081,
-    "lng": -87.9647142
+    "lat": 41.8497106,
+    "lng": -87.9756924
   },
   {
     "id": "18538092847",
@@ -1112,8 +1100,8 @@
     "zip": "07030",
     "phone": "+1 201-659-5222",
     "website": "https://footandankleps.com/",
-    "lat": 40.7361656,
-    "lng": -74.030457
+    "lat": 40.7361299,
+    "lng": -74.0303238
   },
   {
     "id": "6916459520",
@@ -1126,6 +1114,18 @@
     "website": "https://cpousa.com",
     "lat": 40.6999791,
     "lng": -89.6048443
+  },
+  {
+    "id": "10874916105",
+    "name": "New England Orthopedic Surgeons - Springfield, MA",
+    "address": "300 Birnie Avenue",
+    "city": "Springfield",
+    "state": "MA",
+    "zip": "01107",
+    "phone": "4137854666",
+    "website": "https://neortho.com",
+    "lat": 42.121761,
+    "lng": -72.611009
   },
   {
     "id": "7187007329",
@@ -1184,8 +1184,8 @@
     "zip": "46635",
     "phone": "+1 866-316-1312",
     "website": "https://transcendop.com",
-    "lat": 41.7126318,
-    "lng": -86.2070501
+    "lat": 41.7129574,
+    "lng": -86.2073063
   },
   {
     "id": "18505474203",
@@ -1210,18 +1210,6 @@
     "website": "txorthopaedic.com",
     "lat": 32.8768127,
     "lng": -96.7621355
-  },
-  {
-    "id": "35410560809",
-    "name": "Michigan Foot and Ankle Center - Livonia, MI (Beyond Podiatry)",
-    "address": "14555 LEVAN ROAD",
-    "city": "LIVONIA",
-    "state": "MI",
-    "zip": "48154",
-    "phone": "1 (734) 591-6612",
-    "website": "https://michiganfoot.com",
-    "lat": 42.3902743,
-    "lng": -83.4025292
   },
   {
     "id": "29654705207",
@@ -1308,16 +1296,16 @@
     "lng": -77.0363849
   },
   {
-    "id": "36527334721",
-    "name": "Foot and Ankle Associates of North Carolina - Rocky Mount, NC",
-    "address": "740 Sutters Creek Drive",
-    "city": "Rocky Mount",
-    "state": "NC",
-    "zip": "27804",
-    "phone": "(252) 451-4040",
-    "website": "https://www.footandankleassoc.com/",
-    "lat": 35.9423833,
-    "lng": -77.7956949
+    "id": "33016736075",
+    "name": "Lone Star Orthopaedic and Spine Specialists - Burleson, TX",
+    "address": "929 Lipscomb Street",
+    "city": "Burleson",
+    "state": "TX",
+    "zip": "76028",
+    "phone": "+18179262663",
+    "website": "https://www.lonestar-ortho.net/locations/fort-worth/",
+    "lat": 32.5420821,
+    "lng": -97.3208492
   },
   {
     "id": "20335735660",
@@ -1436,8 +1424,8 @@
     "zip": "33322",
     "phone": "1 (954) 476-9024",
     "website": "https://www.drdavidkmorris.com/",
-    "lat": 26.1483838,
-    "lng": -80.2596085
+    "lat": 26.1471291,
+    "lng": -80.2664117
   },
   {
     "id": "18978186256",
@@ -1452,18 +1440,6 @@
     "lng": -83.9210261
   },
   {
-    "id": "36445322285",
-    "name": "Southern Maryland Foot & Ankle - Clinton, MD",
-    "address": "9135 Piscataway Rd # 235",
-    "city": "Clinton",
-    "state": "MD",
-    "zip": "20735",
-    "phone": "(301) 868-3899",
-    "website": "www.somdfootandankle.com",
-    "lat": 38.7651145,
-    "lng": -76.8983059
-  },
-  {
     "id": "33677951401",
     "name": "Cedar Valley Podiatry Foot & Ankle Center - Cedar Falls, IA",
     "address": "4508 Chadwick Rd",
@@ -1474,18 +1450,6 @@
     "website": "https://www.cedarvalleypodiatry.com/",
     "lat": 42.4975667,
     "lng": -92.4129843
-  },
-  {
-    "id": "35904918610",
-    "name": "Rivers Health Orthopedics & Podiatry - Point Pleasant, WV (Pleasant Valley Hospital)",
-    "address": "2520 Valley Drive",
-    "city": "Point Pleasant",
-    "state": "WV",
-    "zip": "25550",
-    "phone": "3046754340",
-    "website": "pvalley.org",
-    "lat": 38.8692323,
-    "lng": -82.1230885
   },
   {
     "id": "22142570423",
@@ -1596,18 +1560,6 @@
     "lng": -80.0532942
   },
   {
-    "id": "34611263848",
-    "name": "Salisbury, NC - VAMC (W.G. Bill Hefner)",
-    "address": "1601 Brenner Avenue",
-    "city": "Salisbury",
-    "state": "NC",
-    "zip": "28144",
-    "phone": "704-638-9000",
-    "website": "va.gov",
-    "lat": 35.6845698,
-    "lng": -80.4907534
-  },
-  {
     "id": "33236784468",
     "name": "Hanger - Rochester, MN",
     "address": "121 23rd Ave SW Ste 101",
@@ -1630,6 +1582,18 @@
     "website": "https://www.va.gov/nebraska-western-iowa-health-care/locations/lincoln-va-clinic/",
     "lat": 40.8111834,
     "lng": -96.6242297
+  },
+  {
+    "id": "18686304298",
+    "name": "Douglas S. Robinson, DPM - Campbell, CA",
+    "address": "131 East Hamilton Ave.",
+    "city": "Campbell",
+    "state": "CA",
+    "zip": "95008",
+    "phone": "4083703338",
+    "website": "https://www.drrobinson.net/",
+    "lat": 37.2940804,
+    "lng": -121.9461932
   },
   {
     "id": "18686334031",
@@ -1692,18 +1656,6 @@
     "lng": -81.457896
   },
   {
-    "id": "36445318991",
-    "name": "Duke Orthopaedics of Raleigh - Raleigh, NC",
-    "address": "3480 Wake Forest Rd Suite 204",
-    "city": "Raleigh",
-    "state": "NC",
-    "zip": "27609",
-    "phone": "(919) 862-5093",
-    "website": "https://www.dukehealth.org/locations/duke-orthopaedics-of-raleigh",
-    "lat": 35.7803977,
-    "lng": -78.6390989
-  },
-  {
     "id": "31910322740",
     "name": "Brockton, MA - VAMC",
     "address": "940 Belmont Street",
@@ -1752,6 +1704,18 @@
     "lng": -78.8764863
   },
   {
+    "id": "29491126310",
+    "name": "Hanger Clinic - Flagstaff, AZ",
+    "address": "10910 Domain Drive",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "zip": "86001",
+    "phone": "(928) 773-2544",
+    "website": "hangerclinic.com",
+    "lat": 35.1987522,
+    "lng": -111.651822
+  },
+  {
     "id": "28713953577",
     "name": "Conway Orthopaedic Sports and Medicine Center - Conway, AR",
     "address": "550 Club Lane",
@@ -1762,18 +1726,6 @@
     "website": "https://www.conwayregional.org/services/orthopedics?y_source=1_MTg1ODE3NDEtNzE1LWxvY2F0aW9uLndlYnNp",
     "lat": 35.0863908,
     "lng": -92.4745881
-  },
-  {
-    "id": "36527335793",
-    "name": "Hughston Clinic - Montgomery, AL (Lomac)",
-    "address": "4294 Lomac Street",
-    "city": "Montgomery",
-    "state": "AL",
-    "zip": "36106",
-    "phone": "(334) 274-9000",
-    "website": "https://al.hughston.com/locations/montgomery-lomac/",
-    "lat": 32.3583251,
-    "lng": -86.2290441
   },
   {
     "id": "22972580270",
@@ -1844,8 +1796,8 @@
     "zip": "86001",
     "phone": "+1 928-772-5320",
     "website": "",
-    "lat": 35.2103477,
-    "lng": -111.6407503
+    "lat": 35.2103479,
+    "lng": -111.640698
   },
   {
     "id": "18686292136",
@@ -1858,6 +1810,18 @@
     "website": "drbpodiatry.com",
     "lat": 41.9193081,
     "lng": -88.3417656
+  },
+  {
+    "id": "30002679990",
+    "name": "Hanger Clinic - Lima, OH",
+    "address": "10910 Domain Drive",
+    "city": "Lima",
+    "state": "OH",
+    "zip": "45804",
+    "phone": "(419) 229-9267",
+    "website": "hangerclinic.com",
+    "lat": 40.7399785,
+    "lng": -84.105006
   },
   {
     "id": "31888825177",
@@ -1896,18 +1860,6 @@
     "lng": -94.8943225
   },
   {
-    "id": "36527313700",
-    "name": "Hughston Clinic - Montgomery, AL (Pavilion)",
-    "address": "4650 Woodmere Blvd",
-    "city": "Montgomery",
-    "state": "AL",
-    "zip": "36106",
-    "phone": "(334) 274-9000",
-    "website": "https://al.hughston.com/locations/montgomery-pavilion/",
-    "lat": 32.3578394,
-    "lng": -86.2286823
-  },
-  {
     "id": "18686315381",
     "name": "Integrated Surgical Specialists - Pottsville, PA",
     "address": "48 Tunnel Road",
@@ -1918,18 +1870,6 @@
     "website": "https://imgpc.com",
     "lat": 40.6851324,
     "lng": -76.1953701
-  },
-  {
-    "id": "36445274463",
-    "name": "Taylor Regional Orthopedic Group - Campbellsville, KY",
-    "address": "100 Medical Park Drive",
-    "city": "Campbellsville",
-    "state": "KY",
-    "zip": "42718",
-    "phone": "+12704650632",
-    "website": "https://www.trorthogroup.com/",
-    "lat": 37.3433974,
-    "lng": -85.3419069
   },
   {
     "id": "29688441519",
@@ -1956,6 +1896,18 @@
     "lng": -80.7434449
   },
   {
+    "id": "28867496821",
+    "name": "Hanger Clinic - Zanesville, OH",
+    "address": "10910 Domain Drive",
+    "city": "Zanesville",
+    "state": "OH",
+    "zip": "43701",
+    "phone": "+1 512-777-3800",
+    "website": "hangerclinic.com",
+    "lat": 39.9401426,
+    "lng": -82.005019
+  },
+  {
     "id": "30731888159",
     "name": "Coatesville, PA - VAMC",
     "address": "1400 Black Horse Hill Road",
@@ -1976,8 +1928,8 @@
     "zip": "53118",
     "phone": "262-521-0202",
     "website": "hangerclinic.com",
-    "lat": 43.0119834,
-    "lng": -88.2425601
+    "lat": 43.0119804,
+    "lng": -88.2425632
   },
   {
     "id": "28652055328",
@@ -1988,8 +1940,8 @@
     "zip": "34655",
     "phone": "727-372-6637",
     "website": "floridajointcare.com",
-    "lat": 28.1898371,
-    "lng": -82.6667834
+    "lat": 28.1898351,
+    "lng": -82.6667804
   },
   {
     "id": "22535918635",
@@ -2002,6 +1954,18 @@
     "website": "notredamewellnesscenter.com",
     "lat": 41.7045677,
     "lng": -86.2382203
+  },
+  {
+    "id": "29257259683",
+    "name": "Hanger Clinic - Sun City, AZ",
+    "address": "10910 Domain Drive",
+    "city": "Sun City",
+    "state": "AZ",
+    "zip": "85351",
+    "phone": "+1 512-777-3800",
+    "website": "hangerclinic.com",
+    "lat": 33.6290111,
+    "lng": -112.281933
   },
   {
     "id": "20401344345",
@@ -2132,8 +2096,20 @@
     "zip": "71203",
     "phone": "(318) 397-1574",
     "website": "https://thefootandankleclinicofwestmonroe.com",
-    "lat": 32.5235116,
-    "lng": -92.0779293
+    "lat": 32.52376,
+    "lng": -92.077786
+  },
+  {
+    "id": "30279621461",
+    "name": "Mercer Foot and Ankle Center LLC - Hamilton Township, NJ",
+    "address": "2275 Whitehorse Mercerville Road",
+    "city": "Hamilton Township",
+    "state": "NJ",
+    "zip": "08619",
+    "phone": "+1 609-585-3200",
+    "website": "mercerfootandanklecenter.com",
+    "lat": 40.2298883,
+    "lng": -74.6865815
   },
   {
     "id": "31952097066",
@@ -2180,8 +2156,8 @@
     "zip": "60014",
     "phone": "+1 847-639-5800",
     "website": "https://illinoisfoot.com",
-    "lat": 42.2486906,
-    "lng": -88.2938505
+    "lat": 42.2486921,
+    "lng": -88.2935504
   },
   {
     "id": "18686970226",
@@ -2232,6 +2208,18 @@
     "lng": -122.2127716
   },
   {
+    "id": "29770642472",
+    "name": "Hanger - Columbus, OH (Dublin Rd)",
+    "address": "10910 Domain Drive",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "phone": "+1 512-777-3800",
+    "website": "hangerclinic.com",
+    "lat": 40.0608442,
+    "lng": -82.8679901
+  },
+  {
     "id": "19732260138",
     "name": "Baton Rouge Orthopedic Clinic, Bluebonnet Campus - Baton Rouge, LA",
     "address": "8080 Bluebonnet Boulevard  STE 1100",
@@ -2242,6 +2230,30 @@
     "website": "https://www.brortho.com/?utm_source=GMBSocialClimb&utm_medium=BROC-BatonRougeOrthopaedicClinic&Afte",
     "lat": 30.4494155,
     "lng": -91.1869659
+  },
+  {
+    "id": "32435633269",
+    "name": "Landmark Foot & Ankle Center - Alexandria, VA",
+    "address": "5249 Duke Street, Ste. 212",
+    "city": "Alexandria",
+    "state": "VA",
+    "zip": "22304",
+    "phone": "+17033702313",
+    "website": "landmarkfootandankle.com",
+    "lat": 38.8051095,
+    "lng": -77.0470229
+  },
+  {
+    "id": "30662682472",
+    "name": "National DME - All Locations",
+    "address": "Allen Street",
+    "city": "Midvale",
+    "state": "UT",
+    "zip": "84047",
+    "phone": "8012623236",
+    "website": "nationaldme.com",
+    "lat": 40.6108709,
+    "lng": -111.9080674
   },
   {
     "id": "28902053791",
@@ -2256,30 +2268,6 @@
     "lng": -70.9362957
   },
   {
-    "id": "18686304298",
-    "name": "Douglas S. Robinson, DPM - Campbell, CA",
-    "address": "131 East Hamilton Ave.",
-    "city": "Campbell",
-    "state": "CA",
-    "zip": "95008",
-    "phone": "4083703338",
-    "website": "https://www.drrobinson.net/",
-    "lat": 37.2942348,
-    "lng": -121.9490696
-  },
-  {
-    "id": "35411134749",
-    "name": "FASMA - Silver Spring, MD (Musgrove Road), White Oak",
-    "address": "8218 Wisconsin Avenue",
-    "city": "Silver Spring",
-    "state": "MD",
-    "zip": "20814",
-    "phone": "+1 301-933-7133",
-    "website": "footandankle-usa.com",
-    "lat": 38.9959461,
-    "lng": -77.0276231
-  },
-  {
     "id": "18686308740",
     "name": "MHP Foot and Ankle Surgery - Shelbyville, IN",
     "address": "275 W BASSETT RD",
@@ -2292,6 +2280,18 @@
     "lng": -85.7769238
   },
   {
+    "id": "31645282441",
+    "name": "North Las Vegas, NV - VAMC",
+    "address": "Bldg. 5, 6900 N Pecos Rd",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89086",
+    "phone": "+17027919000",
+    "website": "https://www.va.gov/southern-nevada-health-care/",
+    "lat": 36.1674263,
+    "lng": -115.1484131
+  },
+  {
     "id": "18686319454",
     "name": "Podiatry of Greater Cleveland - Parma, OH",
     "address": "5625 RIDGE ROAD",
@@ -2302,6 +2302,18 @@
     "website": "https://clevelandfoot.com/",
     "lat": 41.408746,
     "lng": -81.734434
+  },
+  {
+    "id": "32917961511",
+    "name": "FASMA - Silver Spring, MD (Fenton)",
+    "address": "8630 Fenton Street Suite 324",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20910",
+    "phone": "+13015875666",
+    "website": "https://footandankle-usa.com/provider/dr-howard-osterman/",
+    "lat": 38.9959461,
+    "lng": -77.0276231
   },
   {
     "id": "22428206770",
@@ -2376,18 +2388,6 @@
     "lng": -90.1686548
   },
   {
-    "id": "36445320867",
-    "name": "Hughston Clinic - Dothan, AL",
-    "address": "512 North Shady Lane",
-    "city": "Dothan",
-    "state": "AL",
-    "zip": "36303",
-    "phone": "(334) 699-5747",
-    "website": "https://al.hughston.com/locations/dothan/",
-    "lat": 31.2368275,
-    "lng": -85.4517454
-  },
-  {
     "id": "31833647289",
     "name": "St. Augustine, FL - VA Clinic (Leo C. Chase Jr.)",
     "address": "100 Deerfield Preserve Blvd",
@@ -2396,8 +2396,8 @@
     "zip": "32086",
     "phone": "+19048290814",
     "website": "https://www.va.gov/north-florida-health-care/locations/leo-c-chase-jr-va-clinic/",
-    "lat": 29.86022,
-    "lng": -81.348793
+    "lat": 29.8582615,
+    "lng": -81.3470129
   },
   {
     "id": "36650985770",
@@ -2422,30 +2422,6 @@
     "website": "https://hangerclinic.com/clinics/NY/east-syracuse/fly-rd/",
     "lat": 43.0653446,
     "lng": -76.0785332
-  },
-  {
-    "id": "40240625207",
-    "name": "Orthopedic Surgery Specialists - Novi, MI",
-    "address": "925 Chestnut Street",
-    "city": "Novi",
-    "state": "MI",
-    "zip": "48375",
-    "phone": "(248) 438-5228",
-    "website": "orthosurgeryspecialists.com",
-    "lat": 42.48059,
-    "lng": -83.4754913
-  },
-  {
-    "id": "40213604358",
-    "name": "Fusion Foot and Ankle - Fort Worth, TX",
-    "address": "8036 Camp Bowie W BLVD",
-    "city": "Fort Worth",
-    "state": "TX",
-    "zip": "76116",
-    "phone": "817-494-0566",
-    "website": "https://www.fusionfoot.com/our-doctors.html",
-    "lat": 32.7240486,
-    "lng": -97.4547486
   },
   {
     "id": "36650771803",
@@ -2484,6 +2460,18 @@
     "lng": -84.5496148
   },
   {
+    "id": "36527334721",
+    "name": "Foot and Ankle Associates of North Carolina - Rocky Mount, NC",
+    "address": "740 Sutters Creek Drive",
+    "city": "Rocky Mount",
+    "state": "NC",
+    "zip": "27804",
+    "phone": "(252) 451-4040",
+    "website": "https://www.footandankleassoc.com/",
+    "lat": 35.9423833,
+    "lng": -77.7956949
+  },
+  {
     "id": "36765359121",
     "name": "University Hospitals - Mentor, OH",
     "address": "9485 Mentor Ave",
@@ -2516,8 +2504,8 @@
     "zip": "42718",
     "phone": "(270) 465-0632",
     "website": "www.trhosp.org",
-    "lat": 37.3410134,
-    "lng": -85.3454496
+    "lat": 37.3477626,
+    "lng": -85.3507228
   },
   {
     "id": "37000573879",
@@ -2532,28 +2520,16 @@
     "lng": -94.0703475
   },
   {
-    "id": "36529739117",
-    "name": "Mendelson Orthopedics Warren - Sterling Heights, MI",
-    "address": "35735 Mound Rd,Sterling Heights, MI 48310",
-    "city": "Sterling Heights",
+    "id": "35410560809",
+    "name": "Michigan Foot and Ankle Center - Livonia, MI (Beyond Podiatry)",
+    "address": "14555 LEVAN ROAD",
+    "city": "LIVONIA",
     "state": "MI",
-    "zip": "48310",
-    "phone": "(586) 900-8831",
-    "website": "mendelsonortho.com",
-    "lat": 42.5803122,
-    "lng": -83.0302033
-  },
-  {
-    "id": "40213618946",
-    "name": "Comprehensive Prosthetics & Orthotics - Springfield, IL",
-    "address": "1200 West Jefferson Street",
-    "city": "Springfield",
-    "state": "IL",
-    "zip": "62702",
-    "phone": "217-717-9221",
-    "website": "https://www.cpousa.com/locations/springfield/",
-    "lat": 39.8054839,
-    "lng": -89.6733817
+    "zip": "48154",
+    "phone": "1 (734) 591-6612",
+    "website": "https://michiganfoot.com",
+    "lat": 42.3902743,
+    "lng": -83.4025292
   },
   {
     "id": "36608048513",
@@ -2578,18 +2554,6 @@
     "website": "https://prfootandankle.com/",
     "lat": 34.9496267,
     "lng": -94.6436969
-  },
-  {
-    "id": "40173697154",
-    "name": "Greenfield Foot & Ankle Associates - Havertown, PA",
-    "address": "2800 Township Line Road",
-    "city": "Havertown",
-    "state": "PA",
-    "zip": "19083",
-    "phone": "(610) 449-3344",
-    "website": "https://greenfieldpodiatry.com/",
-    "lat": 39.9617119,
-    "lng": -75.3095774
   },
   {
     "id": "36529745210",
@@ -2628,18 +2592,6 @@
     "lng": -80.656274
   },
   {
-    "id": "39825480298",
-    "name": "Ogden Clinic - Ogden, UT",
-    "address": "4700 Harrison Blvd",
-    "city": "Ogden",
-    "state": "UT",
-    "zip": "84403",
-    "phone": "(801) 475-3300",
-    "website": "https://www.ogdenclinic.com/provider-directory/jason-lucas-dpm/",
-    "lat": 41.1778453,
-    "lng": -111.9491151
-  },
-  {
     "id": "36765360202",
     "name": "Vanderbilt Orthopaedics - Nashville, TN",
     "address": "1215 21st Ave S Ste 4200",
@@ -2660,8 +2612,8 @@
     "zip": "44122",
     "phone": "(216) 383-6778",
     "website": "https://www.uhhospitals.org/",
-    "lat": 41.4498237,
-    "lng": -81.4953494
+    "lat": 41.4501217,
+    "lng": -81.5048857
   },
   {
     "id": "36781962849",
@@ -2676,6 +2628,18 @@
     "lng": -77.5816353
   },
   {
+    "id": "36445322285",
+    "name": "Southern Maryland Foot & Ankle - Clinton, MD",
+    "address": "9135 Piscataway Rd # 235",
+    "city": "Clinton",
+    "state": "MD",
+    "zip": "20735",
+    "phone": "(301) 868-3899",
+    "website": "www.somdfootandankle.com",
+    "lat": 38.7651145,
+    "lng": -76.8983059
+  },
+  {
     "id": "36765147717",
     "name": "UH Mayfield Village Health Center - Mayfield, OH",
     "address": "730 Som Center Rd",
@@ -2686,6 +2650,18 @@
     "website": "https://www.uhhospitals.org/locations/uh-mayfield-village-health-center?utm_campaign=UH_Mayfield_Village_Health_Center_730_SOM_Center_Road&utm_source=yext&utm_medium=locallisting&utm_content=website_url",
     "lat": 41.541872,
     "lng": -81.439452
+  },
+  {
+    "id": "35904918610",
+    "name": "Rivers Health Orthopedics & Podiatry - Point Pleasant, WV (Pleasant Valley Hospital)",
+    "address": "2520 Valley Drive",
+    "city": "Point Pleasant",
+    "state": "WV",
+    "zip": "25550",
+    "phone": "3046754340",
+    "website": "pvalley.org",
+    "lat": 38.8692323,
+    "lng": -82.1230885
   },
   {
     "id": "36626231812",
@@ -2724,28 +2700,16 @@
     "lng": -96.802272
   },
   {
-    "id": "39767433751",
-    "name": "Allevio - Foot and Ankle Specialists - Ogden, UT",
-    "address": "475 E 40th St Ste 111",
-    "city": "Ogden",
-    "state": "UT",
-    "zip": "84403",
-    "phone": "(385) 402-4097",
-    "website": "https://www.drrampton.com/",
-    "lat": 41.2230048,
-    "lng": -111.9738429
-  },
-  {
-    "id": "40788675873",
-    "name": "Arlington Orthopedic Associates - Arlington, TX",
-    "address": "800 Orthopedic Way",
-    "city": "Arlington",
-    "state": "TX",
-    "zip": "76015",
-    "phone": "817.375.5200",
-    "website": "https://www.arlingtonortho.com/",
-    "lat": 32.7052984,
-    "lng": -97.1165833
+    "id": "34611263848",
+    "name": "Salisbury, NC - VAMC (W.G. Bill Hefner)",
+    "address": "1601 Brenner Avenue",
+    "city": "Salisbury",
+    "state": "NC",
+    "zip": "28144",
+    "phone": "704-638-9000",
+    "website": "va.gov",
+    "lat": 35.6845698,
+    "lng": -80.4907534
   },
   {
     "id": "36615788148",
@@ -2758,6 +2722,18 @@
     "website": "https://www.drmcgrathdpm.com/",
     "lat": 40.9312099,
     "lng": -73.8987469
+  },
+  {
+    "id": "36445318991",
+    "name": "Duke Orthopaedics of Raleigh - Raleigh, NC",
+    "address": "3480 Wake Forest Rd Suite 204",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": "27609",
+    "phone": "(919) 862-5093",
+    "website": "https://www.dukehealth.org/locations/duke-orthopaedics-of-raleigh",
+    "lat": 35.7803977,
+    "lng": -78.6390989
   },
   {
     "id": "36626232322",
@@ -2820,6 +2796,18 @@
     "lng": -97.3442532
   },
   {
+    "id": "36527335793",
+    "name": "Hughston Clinic - Montgomery, AL (Lomac)",
+    "address": "4294 Lomac Street",
+    "city": "Montgomery",
+    "state": "AL",
+    "zip": "36106",
+    "phone": "(334) 274-9000",
+    "website": "https://al.hughston.com/locations/montgomery-lomac/",
+    "lat": 32.3583251,
+    "lng": -86.2290441
+  },
+  {
     "id": "36608108644",
     "name": "Westcoast Brace & Limb - Palm Harbor, FL",
     "address": "3285 Tampa Road",
@@ -2828,8 +2816,8 @@
     "zip": "34684",
     "phone": "727-785-0100",
     "website": "https://www.wcbl.com/palm-harbor-prosthetics-and-orthotics-company/",
-    "lat": 28.0674031,
-    "lng": -82.730465
+    "lat": 28.0674011,
+    "lng": -82.730462
   },
   {
     "id": "36781963182",
@@ -2876,8 +2864,8 @@
     "zip": "68144",
     "phone": "(402) 751-0600",
     "website": "https://prfootandankle.com/",
-    "lat": 41.2326252,
-    "lng": -96.0905852
+    "lat": 41.2326244,
+    "lng": -96.0905488
   },
   {
     "id": "36765147193",
@@ -2890,18 +2878,6 @@
     "website": "https://www.audubonops.com/",
     "lat": 38.8339578,
     "lng": -104.825348
-  },
-  {
-    "id": "36527529349",
-    "name": "Advanced Foot and Ankle Centers of Illinois - Palatine, IL",
-    "address": "675 N North Ct suite 380",
-    "city": "Palatine",
-    "state": "IL",
-    "zip": "60067",
-    "phone": "(847) 358-7005",
-    "website": "yourfootdocs.com",
-    "lat": 42.1105502,
-    "lng": -88.0434304
   },
   {
     "id": "36608054416",
@@ -2988,6 +2964,18 @@
     "lng": -86.3097278
   },
   {
+    "id": "36529739117",
+    "name": "Mendelson Orthopedics Warren - Sterling Heights, MI",
+    "address": "35735 Mound Rd,Sterling Heights, MI 48310",
+    "city": "Sterling Heights",
+    "state": "MI",
+    "zip": "48310",
+    "phone": "(586) 900-8831",
+    "website": "mendelsonortho.com",
+    "lat": 42.5803122,
+    "lng": -83.0302033
+  },
+  {
     "id": "39561635449",
     "name": "Corrective Step Foot Health Center LLC - Tigard, OR",
     "address": "11515 SW Durham Rd, Suite E-1",
@@ -2998,18 +2986,6 @@
     "website": "https://correctivestep.com/about-dr-isiorho/",
     "lat": 45.4307473,
     "lng": -122.771933
-  },
-  {
-    "id": "40173704303",
-    "name": "OrthoPro of Twin Falls - Twin Falls, ID",
-    "address": "1437 Parkview Drive, Ste 200",
-    "city": "Twin Falls",
-    "state": "ID",
-    "zip": "83301",
-    "phone": "208-733-0505",
-    "website": "https://www.orthoprotwinfalls.com/",
-    "lat": 42.5558542,
-    "lng": -114.4700684
   },
   {
     "id": "36527864084",
@@ -3060,6 +3036,18 @@
     "lng": -80.2440518
   },
   {
+    "id": "36527313700",
+    "name": "Hughston Clinic - Montgomery, AL (Pavilion)",
+    "address": "4650 Woodmere Blvd",
+    "city": "Montgomery",
+    "state": "AL",
+    "zip": "36106",
+    "phone": "(334) 274-9000",
+    "website": "https://al.hughston.com/locations/montgomery-pavilion/",
+    "lat": 32.3578394,
+    "lng": -86.2286823
+  },
+  {
     "id": "36650769588",
     "name": "Hanger Clinic - Woburn, MA",
     "address": "232 W Cummings Park",
@@ -3096,6 +3084,18 @@
     "lng": -88.0840212
   },
   {
+    "id": "36527529349",
+    "name": "Advanced Foot and Ankle Centers of Illinois - Palatine, IL",
+    "address": "675 N North Ct suite 380",
+    "city": "Palatine",
+    "state": "IL",
+    "zip": "60067",
+    "phone": "(847) 358-7005",
+    "website": "yourfootdocs.com",
+    "lat": 42.1105502,
+    "lng": -88.0434304
+  },
+  {
     "id": "36609380792",
     "name": "Hanger Clinic - Boston, MA",
     "address": "55 Fruit St Ste YAWKEY",
@@ -3106,6 +3106,18 @@
     "website": "https://hangerclinic.com/clinics/MA/boston/fruit-st/",
     "lat": 42.3588336,
     "lng": -71.0578303
+  },
+  {
+    "id": "36445274463",
+    "name": "Taylor Regional Orthopedic Group - Campbellsville, KY",
+    "address": "100 Medical Park Drive",
+    "city": "Campbellsville",
+    "state": "KY",
+    "zip": "42718",
+    "phone": "+12704650632",
+    "website": "https://www.trorthogroup.com/",
+    "lat": 37.3433974,
+    "lng": -85.3419069
   },
   {
     "id": "36608048805",
@@ -3192,18 +3204,6 @@
     "lng": -80.1060506
   },
   {
-    "id": "40201560863",
-    "name": "Total Foot and Ankle Care - Dallas, TX",
-    "address": "Address: 6138 Precinct Line Road, Suite 100",
-    "city": "Dallas",
-    "state": "TX",
-    "zip": "76054",
-    "phone": " 817-518-7600 ",
-    "website": "https://www.mytfac.com/",
-    "lat": 32.7762719,
-    "lng": -96.7968559
-  },
-  {
     "id": "36626226744",
     "name": "Ability Otto Bock Patient Care, LLC - All Locations",
     "address": "455 South Washington Street",
@@ -3212,8 +3212,8 @@
     "zip": "17325",
     "phone": "484-932-5000",
     "website": "abilitypo.com",
-    "lat": 39.8243157,
-    "lng": -77.2331306
+    "lat": 39.824336,
+    "lng": -77.233346
   },
   {
     "id": "36627259920",
@@ -3274,18 +3274,6 @@
     "website": "www.balancecle.com",
     "lat": 41.6750796,
     "lng": -81.2392561
-  },
-  {
-    "id": "40602532166",
-    "name": "Eschen Labs",
-    "address": "510 E 73rd St",
-    "city": "New York",
-    "state": "NY",
-    "zip": "10021",
-    "phone": "(212) 606-1262",
-    "website": "www.eschenpo.com",
-    "lat": 40.7669649,
-    "lng": -73.9521515
   },
   {
     "id": "36608052529",
@@ -3440,8 +3428,8 @@
     "zip": "37064",
     "phone": "(615) 936-7846",
     "website": "https://www.vanderbilthealth.com/locations/vanderbilt-orthopaedics-franklin?utm_source=Yext",
-    "lat": 35.9061567,
-    "lng": -86.8394948
+    "lat": 35.9064306,
+    "lng": -86.8373801
   },
   {
     "id": "38656346911",
@@ -3454,6 +3442,18 @@
     "website": "https://oahct.com/",
     "lat": 41.764582,
     "lng": -72.6908547
+  },
+  {
+    "id": "35411134749",
+    "name": "FASMA - Silver Spring, MD (Musgrove Road), White Oak",
+    "address": "8218 Wisconsin Avenue",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20814",
+    "phone": "+1 301-933-7133",
+    "website": "footandankle-usa.com",
+    "lat": 38.9959461,
+    "lng": -77.0276231
   },
   {
     "id": "36529738385",
@@ -3476,20 +3476,8 @@
     "zip": "50125",
     "phone": "5156661151",
     "website": "https://www.indianolafootandankle.com/",
-    "lat": 41.3744817,
-    "lng": -93.5594612
-  },
-  {
-    "id": "40288583207",
-    "name": "FASMA - Charlotte, NC - Ryan Foot and Ankle - (Fairview Road)",
-    "address": "6831-A Fairview Road",
-    "city": "Charlotte",
-    "state": "NC",
-    "zip": "28210",
-    "phone": " 704-376-3947",
-    "website": "https://ryanfootandankleclinic.com/south-park-podiatrists/",
-    "lat": 35.1526993,
-    "lng": -80.8475901
+    "lat": 41.3740685,
+    "lng": -93.5593573
   },
   {
     "id": "36765150983",
@@ -3588,6 +3576,18 @@
     "lng": -82.5926012
   },
   {
+    "id": "36445320867",
+    "name": "Hughston Clinic - Dothan, AL",
+    "address": "512 North Shady Lane",
+    "city": "Dothan",
+    "state": "AL",
+    "zip": "36303",
+    "phone": "(334) 699-5747",
+    "website": "https://al.hughston.com/locations/dothan/",
+    "lat": 31.2368275,
+    "lng": -85.4517454
+  },
+  {
     "id": "36608050852",
     "name": "Advanced Orthopedics & Sports Medicine - Henderson, NV",
     "address": "2904 W Horizon Ridge Pkwy Ste 101",
@@ -3598,18 +3598,6 @@
     "website": "https://www.aosmlv.com/",
     "lat": 36.0319602,
     "lng": -114.9822716
-  },
-  {
-    "id": "41552083349",
-    "name": "Hughston Clinic - Newnan, GA",
-    "address": "1825 Highway 34 EastSuite 2100",
-    "city": "Newman",
-    "state": "GA",
-    "zip": "30265",
-    "phone": "(770) 273-9400",
-    "website": "https://ga.hughston.com/locations/newnan/",
-    "lat": 33.3705147,
-    "lng": -85.0036181
   },
   {
     "id": "43719907156",
@@ -3624,16 +3612,16 @@
     "lng": -80.8430827
   },
   {
-    "id": "52808441363",
-    "name": "UPMC Elite Orthopaedics - Hollidaysburg, PA",
-    "address": "800 S. Logan Blvd., Suite 2200",
-    "city": "Hollidaysburg",
-    "state": "PA",
-    "zip": "16648",
-    "phone": "855-363-0375",
-    "website": "https://www.upmc.com/services/orthopaedics/locations/west-central-pa/hollidaysburg",
-    "lat": 40.430774,
-    "lng": -78.3900826
+    "id": "40240625207",
+    "name": "Orthopedic Surgery Specialists - Novi, MI",
+    "address": "925 Chestnut Street",
+    "city": "Novi",
+    "state": "MI",
+    "zip": "48375",
+    "phone": "(248) 438-5228",
+    "website": "orthosurgeryspecialists.com",
+    "lat": 42.48059,
+    "lng": -83.4754913
   },
   {
     "id": "44672374687",
@@ -3660,6 +3648,18 @@
     "lng": -88.1607918
   },
   {
+    "id": "40213604358",
+    "name": "Fusion Foot and Ankle - Fort Worth, TX",
+    "address": "8036 Camp Bowie W BLVD",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip": "76116",
+    "phone": "817-494-0566",
+    "website": "https://www.fusionfoot.com/our-doctors.html",
+    "lat": 32.7240486,
+    "lng": -97.4547486
+  },
+  {
     "id": "46734626466",
     "name": "Leeds, MA - VAMC (Central Western Massachusetts) (Edward P. Boland)",
     "address": "421 N Main St",
@@ -3672,18 +3672,6 @@
     "lng": -72.6846003
   },
   {
-    "id": "52069386131",
-    "name": "Foot and Ankle Wellness Center - North Fort Myers, FL",
-    "address": "16251 N Cleveland Ave",
-    "city": "North Fort Myers",
-    "state": "FL",
-    "zip": "33903",
-    "phone": "(239) 656-6565",
-    "website": "https://fortmyersfootwellness.com/",
-    "lat": 26.6984128,
-    "lng": -81.9007238
-  },
-  {
     "id": "49265236068",
     "name": "Buckner Prosthetics and Orthotics - Biloxi, MS ",
     "address": "13061 Shriners Blvd",
@@ -3692,8 +3680,8 @@
     "zip": "39532",
     "phone": "(228) 828-3037",
     "website": "https://bucknerprosthetics.com/",
-    "lat": 30.472963,
-    "lng": -88.9708354
+    "lat": 30.4744815,
+    "lng": -88.9703881
   },
   {
     "id": "49318433197",
@@ -3788,8 +3776,8 @@
     "zip": "54703",
     "phone": "(715) 830-1814",
     "website": "https://hangerclinic.com/clinics/WI/eau-claire/w-madison-st/",
-    "lat": 44.8154793,
-    "lng": -91.5106108
+    "lat": 44.8154781,
+    "lng": -91.5106156
   },
   {
     "id": "41548501586",
@@ -3812,8 +3800,20 @@
     "zip": "75010",
     "phone": "(972) 394-0825",
     "website": "https://www.swpfa.com/",
-    "lat": 33.0279035,
-    "lng": -96.8842841
+    "lat": 33.0284071,
+    "lng": -96.8839854
+  },
+  {
+    "id": "40213618946",
+    "name": "Comprehensive Prosthetics & Orthotics - Springfield, IL",
+    "address": "1200 West Jefferson Street",
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62702",
+    "phone": "217-717-9221",
+    "website": "https://www.cpousa.com/locations/springfield/",
+    "lat": 39.8054839,
+    "lng": -89.6733817
   },
   {
     "id": "40865310291",
@@ -3826,6 +3826,18 @@
     "website": "https://hangerclinic.com/clinics/mo/st-louis/forest-park-ave/",
     "lat": 38.6386597,
     "lng": -90.2586126
+  },
+  {
+    "id": "40173697154",
+    "name": "Greenfield Foot & Ankle Associates - Havertown, PA",
+    "address": "2800 Township Line Road",
+    "city": "Havertown",
+    "state": "PA",
+    "zip": "19083",
+    "phone": "(610) 449-3344",
+    "website": "https://greenfieldpodiatry.com/",
+    "lat": 39.9617119,
+    "lng": -75.3095774
   },
   {
     "id": "47323467340",
@@ -3876,18 +3888,6 @@
     "lng": -89.1218477
   },
   {
-    "id": "52814117946",
-    "name": "Hanger Clinic - Spartanburg, SC.",
-    "address": "1702 Skylyn Dr",
-    "city": "Spartanburg",
-    "state": "SC",
-    "zip": "29307",
-    "phone": " (864) 585-3691",
-    "website": "https://hangerclinic.com/clinics/SC/spartanburg/e-skylyn-dr/",
-    "lat": 34.978773,
-    "lng": -81.8938804
-  },
-  {
     "id": "44444380452",
     "name": "Allcare O&P Services - Rochelle Park, NJ",
     "address": "50 Essex St",
@@ -3922,6 +3922,18 @@
     "website": "https://www.ibji.com/",
     "lat": 41.5119761,
     "lng": -87.9656098
+  },
+  {
+    "id": "39825480298",
+    "name": "Ogden Clinic - Ogden, UT",
+    "address": "4700 Harrison Blvd",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84403",
+    "phone": "(801) 475-3300",
+    "website": "https://www.ogdenclinic.com/provider-directory/jason-lucas-dpm/",
+    "lat": 41.1778453,
+    "lng": -111.9491151
   },
   {
     "id": "47629480825",
@@ -3972,18 +3984,6 @@
     "lng": -79.7919754
   },
   {
-    "id": "52831882106",
-    "name": "Lawton, OK - VA Clinic (Lawton North)",
-    "address": "2640 Miner Rd",
-    "city": "Lawton",
-    "state": "OK",
-    "zip": "73503",
-    "phone": "(580) 585-5600",
-    "website": "https://www.va.gov/oklahoma-city-health-care/locations/lawton-north-va-clinic/",
-    "lat": 34.659733,
-    "lng": -98.4232251
-  },
-  {
     "id": "47547510654",
     "name": "FASMA - Apex, NC (Piedmont Foot & Ankle Specialists)",
     "address": "1001 Pemberton Hill Rd",
@@ -3992,20 +3992,8 @@
     "zip": "27502",
     "phone": "919-363-3310",
     "website": "www.piedmontfootclinic.com",
-    "lat": 35.745409,
-    "lng": -78.872238
-  },
-  {
-    "id": "52817603189",
-    "name": "Coachella Valley Orthotics & Prosthetics - Palm Springs, CA",
-    "address": "1080 N Indian Canyon Dr Ste 203",
-    "city": "Palm Springs",
-    "state": "CA",
-    "zip": "92262",
-    "phone": " (760) 345-4779",
-    "website": null,
-    "lat": 33.8246269,
-    "lng": -116.540303
+    "lat": 35.746075,
+    "lng": -78.871274
   },
   {
     "id": "40806072112",
@@ -4080,6 +4068,42 @@
     "lng": -85.0313269
   },
   {
+    "id": "39767433751",
+    "name": "Allevio - Foot and Ankle Specialists - Ogden, UT",
+    "address": "475 E 40th St Ste 111",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84403",
+    "phone": "(385) 402-4097",
+    "website": "https://www.drrampton.com/",
+    "lat": 41.2230048,
+    "lng": -111.9738429
+  },
+  {
+    "id": "40788675873",
+    "name": "Arlington Orthopedic Associates - Arlington, TX",
+    "address": "800 Orthopedic Way",
+    "city": "Arlington",
+    "state": "TX",
+    "zip": "76015",
+    "phone": "817.375.5200",
+    "website": "https://www.arlingtonortho.com/",
+    "lat": 32.7052984,
+    "lng": -97.1165833
+  },
+  {
+    "id": "41552083349",
+    "name": "Hughston Clinic - Newnan, GA",
+    "address": "1825 Highway 34 EastSuite 2100",
+    "city": "Newman",
+    "state": "GA",
+    "zip": "30265",
+    "phone": "(770) 273-9400",
+    "website": "https://ga.hughston.com/locations/newnan/",
+    "lat": 33.3705147,
+    "lng": -85.0036181
+  },
+  {
     "id": "48255909793",
     "name": "Infinite Technologies Orthotics and Prosthetics - Fredericksburg, VA",
     "address": "312 Progress Street, Suite 200",
@@ -4088,8 +4112,8 @@
     "zip": "22401",
     "phone": " (877) 424-7179",
     "website": "https://www.infinitetech.org/",
-    "lat": 38.2960809,
-    "lng": -77.4832368
+    "lat": 38.3001235,
+    "lng": -77.4571422
   },
   {
     "id": "46108826190",
@@ -4100,8 +4124,8 @@
     "zip": "23606",
     "phone": "(757) 595-9800",
     "website": "https://www.reachops.com/",
-    "lat": 37.082405,
-    "lng": -76.4798369
+    "lat": 37.0823615,
+    "lng": -76.4798102
   },
   {
     "id": "49540512563",
@@ -4196,8 +4220,8 @@
     "zip": "98506",
     "phone": "(360) 338-0284",
     "website": "https://maughanpno.com/",
-    "lat": 47.0494644,
-    "lng": -122.8438652
+    "lat": 47.0494532,
+    "lng": -122.8435742
   },
   {
     "id": "41391591560",
@@ -4272,18 +4296,6 @@
     "lng": -96.7870724
   },
   {
-    "id": "52814117425",
-    "name": "Del Bianco Prosthetics and Orthotics - Apex, NC",
-    "address": "1031 Williams St",
-    "city": "Apex",
-    "state": "NC",
-    "zip": "27502",
-    "phone": "(919) 267-5284",
-    "website": "www.delbiancopo.com",
-    "lat": 35.7421111,
-    "lng": -78.8700309
-  },
-  {
     "id": "48895651967",
     "name": "Hanger Clinic - Ft. Dodge, IA",
     "address": "804 Kenyon Rd",
@@ -4292,8 +4304,8 @@
     "zip": "50501",
     "phone": "+15155768255",
     "website": "https://hangerclinic.com/clinics/IA/fort-dodge/kenyon-rd/",
-    "lat": 42.4919778,
-    "lng": -94.1919539
+    "lat": 42.4921152,
+    "lng": -94.191399
   },
   {
     "id": "42184669536",
@@ -4320,6 +4332,18 @@
     "lng": -76.659543
   },
   {
+    "id": "40173704303",
+    "name": "OrthoPro of Twin Falls - Twin Falls, ID",
+    "address": "1437 Parkview Drive, Ste 200",
+    "city": "Twin Falls",
+    "state": "ID",
+    "zip": "83301",
+    "phone": "208-733-0505",
+    "website": "https://www.orthoprotwinfalls.com/",
+    "lat": 42.5558542,
+    "lng": -114.4700684
+  },
+  {
     "id": "47245243190",
     "name": "Hanger Clinic - Eureka, CA",
     "address": "2773 Harris St",
@@ -4328,8 +4352,8 @@
     "zip": "95503",
     "phone": "(707) 444-0116",
     "website": "https://hangerclinic.com/clinics/CA/eureka/harris-st/",
-    "lat": 40.7803438,
-    "lng": -124.1546298
+    "lat": 40.7803905,
+    "lng": -124.1624536
   },
   {
     "id": "48492222784",
@@ -4378,18 +4402,6 @@
     "website": "https://prfootandankle.com/",
     "lat": 40.7918942,
     "lng": -96.6816534
-  },
-  {
-    "id": "52571551853",
-    "name": "Limb Lab - La Crosse, WI",
-    "address": "1919 State Rd",
-    "city": "La Crosse",
-    "state": "WI",
-    "zip": "54601",
-    "phone": " 608-782-1855 ",
-    "website": "https://limblab.com/location-la-crosse/",
-    "lat": 43.9126215,
-    "lng": -91.0758527
   },
   {
     "id": "43719784066",
@@ -4464,16 +4476,16 @@
     "lng": -115.2762844
   },
   {
-    "id": "51934461028",
-    "name": "Treasure Valley Orthopedics - Meridian, ID",
-    "address": "875 S Vanguard Way",
-    "city": "Meridian",
-    "state": "ID",
-    "zip": "83642",
-    "phone": "+12085630001",
-    "website": "https://tvorthopedics.com/",
-    "lat": 43.5964949,
-    "lng": -116.4318848
+    "id": "40201560863",
+    "name": "Total Foot and Ankle Care - Dallas, TX",
+    "address": "Address: 6138 Precinct Line Road, Suite 100",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "76054",
+    "phone": " 817-518-7600 ",
+    "website": "https://www.mytfac.com/",
+    "lat": 32.7762719,
+    "lng": -96.7968559
   },
   {
     "id": "50330402704",
@@ -4484,8 +4496,8 @@
     "zip": "32901",
     "phone": "(321) 724-5411",
     "website": "https://hangerclinic.com/clinics/FL/melbourne/w-hibiscus-blvd/",
-    "lat": 28.085318,
-    "lng": -80.6252983
+    "lat": 28.085317,
+    "lng": -80.6253007
   },
   {
     "id": "42791689993",
@@ -4496,8 +4508,8 @@
     "zip": "27215",
     "phone": "(336) 538-6885",
     "website": "https://www.triadfoot.com/tfac/",
-    "lat": 36.080798,
-    "lng": -79.5166439
+    "lat": 36.0832283,
+    "lng": -79.5169355
   },
   {
     "id": "44785166850",
@@ -4572,18 +4584,6 @@
     "lng": -78.7812081
   },
   {
-    "id": "51934092389",
-    "name": "Hanger Clinic - Fort Walton Beach, FL",
-    "address": "28 Perry Ave SE",
-    "city": "Fort Walton Beach",
-    "state": "FL",
-    "zip": "32548",
-    "phone": "(850) 243-5219",
-    "website": "https://hangerclinic.com/clinics/FL/fort-walton-beach/perry-avenue-se/",
-    "lat": 30.4096844,
-    "lng": -86.6032048
-  },
-  {
     "id": "50596687236",
     "name": "Salt Lake City, UT - VAMC (George E. Wahlen)",
     "address": "S Foothill Dr",
@@ -4640,8 +4640,20 @@
     "zip": "32701",
     "phone": "(407) 740-8774",
     "website": "https://hangerclinic.com/clinics/FL/altamonte-springs/orienta-ave/",
-    "lat": 28.6610087,
-    "lng": -81.3642114
+    "lat": 28.6611864,
+    "lng": -81.3633443
+  },
+  {
+    "id": "40602532166",
+    "name": "Eschen Labs",
+    "address": "510 E 73rd St",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10021",
+    "phone": "(212) 606-1262",
+    "website": "www.eschenpo.com",
+    "lat": 40.7669649,
+    "lng": -73.9521515
   },
   {
     "id": "45934451868",
@@ -4652,8 +4664,8 @@
     "zip": "14215",
     "phone": "(716) 834-9200",
     "website": "https://www.va.gov/western-new-york-health-care/",
-    "lat": 42.9512149,
-    "lng": -78.8135953
+    "lat": 42.9513029,
+    "lng": -78.812284
   },
   {
     "id": "51855141439",
@@ -4704,16 +4716,16 @@
     "lng": -97.7346461
   },
   {
-    "id": "52813991710",
-    "name": "Hanger Clinic - Fargo, ND",
-    "address": "3003 32nd Ave S",
-    "city": "Fargo",
-    "state": "ND",
-    "zip": "58103",
-    "phone": "(701) 298-7926",
-    "website": "https://hangerclinic.com/clinics/ND/fargo/32nd-avenue-s/",
-    "lat": 46.8324283,
-    "lng": -96.826497
+    "id": "40288583207",
+    "name": "FASMA - Charlotte, NC - Ryan Foot and Ankle - (Fairview Road)",
+    "address": "6831-A Fairview Road",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28210",
+    "phone": " 704-376-3947",
+    "website": "https://ryanfootandankleclinic.com/south-park-podiatrists/",
+    "lat": 35.1526993,
+    "lng": -80.8475901
   },
   {
     "id": "47898809994",
@@ -4726,18 +4738,6 @@
     "website": "https://hangerclinic.com/clinics/TX/texarkana/richmond-rd/",
     "lat": 33.4689394,
     "lng": -94.0959433
-  },
-  {
-    "id": "51942594489",
-    "name": "Bionic Prosthetics & Orthotics - Mishawaka, IN",
-    "address": "221 Red Coach Dr",
-    "city": "Mishawaka",
-    "state": "IN",
-    "zip": "46545",
-    "phone": "(574) 855-3744",
-    "website": "https://www.bionicpo.com/clinics/mishawaka",
-    "lat": 41.6929078,
-    "lng": -86.1837774
   },
   {
     "id": "44785167544",
@@ -4784,8 +4784,8 @@
     "zip": "12110",
     "phone": "(518) 786-8655",
     "website": "https://www.latorreop.com/",
-    "lat": 42.7629774,
-    "lng": -73.7991659
+    "lat": 42.7628927,
+    "lng": -73.7992436
   },
   {
     "id": "42791692548",
@@ -4836,6 +4836,18 @@
     "lng": -84.3208354
   },
   {
+    "id": "52808441363",
+    "name": "UPMC Elite Orthopaedics - Hollidaysburg, PA",
+    "address": "800 S. Logan Blvd., Suite 2200",
+    "city": "Hollidaysburg",
+    "state": "PA",
+    "zip": "16648",
+    "phone": "855-363-0375",
+    "website": "https://www.upmc.com/services/orthopaedics/locations/west-central-pa/hollidaysburg",
+    "lat": 40.430774,
+    "lng": -78.3900826
+  },
+  {
     "id": "53579123893",
     "name": "Precision Orthopedics and Sports Medicine - La Plata, MD.",
     "address": "16 N La Plata Ct",
@@ -4856,8 +4868,8 @@
     "zip": "27545",
     "phone": "(919) 385-3666",
     "website": "https://www.dukehealth.org/locations/duke-orthopaedics-of-knightdale",
-    "lat": 35.7980043,
-    "lng": -78.5182916
+    "lat": 35.7962127,
+    "lng": -78.5186412
   },
   {
     "id": "53948580628",
@@ -4894,6 +4906,30 @@
     "website": "https://hangerclinic.com/clinics/WA/longview/hudson-st/",
     "lat": 46.1377048,
     "lng": -122.934462
+  },
+  {
+    "id": "52571551853",
+    "name": "Limb Lab - La Crosse, WI",
+    "address": "1919 State Rd",
+    "city": "La Crosse",
+    "state": "WI",
+    "zip": "54601",
+    "phone": " 608-782-1855 ",
+    "website": "https://limblab.com/location-la-crosse/",
+    "lat": 43.9126215,
+    "lng": -91.0758527
+  },
+  {
+    "id": "52069386131",
+    "name": "Foot and Ankle Wellness Center - North Fort Myers, FL",
+    "address": "16251 N Cleveland Ave",
+    "city": "North Fort Myers",
+    "state": "FL",
+    "zip": "33903",
+    "phone": "(239) 656-6565",
+    "website": "https://fortmyersfootwellness.com/",
+    "lat": 26.7119122,
+    "lng": -81.9024605
   },
   {
     "id": "55292607929",
@@ -5000,8 +5036,8 @@
     "zip": "52403",
     "phone": "3193625118",
     "website": "pcofiowa.com",
-    "lat": 41.9827914,
-    "lng": -91.6589458
+    "lat": 41.983357,
+    "lng": -91.6582274
   },
   {
     "id": "53578628164",
@@ -5012,8 +5048,8 @@
     "zip": "42104",
     "phone": "(270) 781-7418",
     "website": "https://hangerclinic.com/clinics/KY/bowling-green/destiny-ln/",
-    "lat": 36.9600126,
-    "lng": -86.4482268
+    "lat": 36.9602187,
+    "lng": -86.4482378
   },
   {
     "id": "53141325936",
@@ -5024,8 +5060,8 @@
     "zip": "37330",
     "phone": "(931) 649-3575",
     "website": "https://hangerclinic.com/clinics/TN/estill-springs/s-main-st/",
-    "lat": 35.2527026,
-    "lng": -86.1207271
+    "lat": 35.2609047,
+    "lng": -86.1225047
   },
   {
     "id": "52980504457",
@@ -5088,6 +5124,18 @@
     "lng": -84.2240986
   },
   {
+    "id": "51934461028",
+    "name": "Treasure Valley Orthopedics - Meridian, ID",
+    "address": "875 S Vanguard Way",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83642",
+    "phone": "+12085630001",
+    "website": "https://tvorthopedics.com/",
+    "lat": 43.5964949,
+    "lng": -116.4318848
+  },
+  {
     "id": "55165741434",
     "name": "Comprehensive Prosthetics & Orthotics - Elgin, IL",
     "address": "1710 N Randall Rd Suite 170",
@@ -5110,6 +5158,18 @@
     "website": "https://hangerclinic.com/clinics/MO/st-peters/st-peters-centre-blvd/",
     "lat": 38.7955538,
     "lng": -90.5960291
+  },
+  {
+    "id": "52814117946",
+    "name": "Hanger Clinic - Spartanburg, SC.",
+    "address": "1702 Skylyn Dr",
+    "city": "Spartanburg",
+    "state": "SC",
+    "zip": "29307",
+    "phone": " (864) 585-3691",
+    "website": "https://hangerclinic.com/clinics/SC/spartanburg/e-skylyn-dr/",
+    "lat": 34.978773,
+    "lng": -81.8938804
   },
   {
     "id": "55592629786",
@@ -5136,6 +5196,18 @@
     "lng": -77.4958174
   },
   {
+    "id": "51934092389",
+    "name": "Hanger Clinic - Fort Walton Beach, FL",
+    "address": "28 Perry Ave SE",
+    "city": "Fort Walton Beach",
+    "state": "FL",
+    "zip": "32548",
+    "phone": "(850) 243-5219",
+    "website": "https://hangerclinic.com/clinics/FL/fort-walton-beach/perry-avenue-se/",
+    "lat": 30.4096844,
+    "lng": -86.6032048
+  },
+  {
     "id": "53465540140",
     "name": "Restore Orthotics & Prosthetics - Santa Cruz, CA",
     "address": "1505 Soquel Dr",
@@ -5146,6 +5218,30 @@
     "website": "https://www.restoreoandp.com/",
     "lat": 36.9880047,
     "lng": -121.9850737
+  },
+  {
+    "id": "52831882106",
+    "name": "Lawton, OK - VA Clinic (Lawton North)",
+    "address": "2640 Miner Rd",
+    "city": "Lawton",
+    "state": "OK",
+    "zip": "73503",
+    "phone": "(580) 585-5600",
+    "website": "https://www.va.gov/oklahoma-city-health-care/locations/lawton-north-va-clinic/",
+    "lat": 34.659733,
+    "lng": -98.4232251
+  },
+  {
+    "id": "52817603189",
+    "name": "Coachella Valley Orthotics & Prosthetics - Palm Springs, CA",
+    "address": "1080 N Indian Canyon Dr Ste 203",
+    "city": "Palm Springs",
+    "state": "CA",
+    "zip": "92262",
+    "phone": " (760) 345-4779",
+    "website": null,
+    "lat": 33.8246269,
+    "lng": -116.540303
   },
   {
     "id": "55399964424",
@@ -5180,8 +5276,8 @@
     "zip": "27612",
     "phone": "9197815600",
     "website": "raleighortho.com",
-    "lat": 35.8342315,
-    "lng": -78.6969032
+    "lat": 35.837012,
+    "lng": -78.688191
   },
   {
     "id": "55866350189",
@@ -5328,6 +5424,18 @@
     "lng": -90.7346318
   },
   {
+    "id": "52813991710",
+    "name": "Hanger Clinic - Fargo, ND",
+    "address": "3003 32nd Ave S",
+    "city": "Fargo",
+    "state": "ND",
+    "zip": "58103",
+    "phone": "(701) 298-7926",
+    "website": "https://hangerclinic.com/clinics/ND/fargo/32nd-avenue-s/",
+    "lat": 46.8327147,
+    "lng": -96.8275181
+  },
+  {
     "id": "53392439080",
     "name": "Hanger Clinic - Kalamazoo, MI",
     "address": "2318 Gull Rd",
@@ -5338,6 +5446,30 @@
     "website": "https://hangerclinic.com/clinics/MI/kalamazoo/gull-rd/",
     "lat": 42.3094858,
     "lng": -85.5510891
+  },
+  {
+    "id": "52814117425",
+    "name": "Del Bianco Prosthetics and Orthotics - Apex, NC",
+    "address": "1031 Williams St",
+    "city": "Apex",
+    "state": "NC",
+    "zip": "27502",
+    "phone": "(919) 267-5284",
+    "website": "www.delbiancopo.com",
+    "lat": 35.7421111,
+    "lng": -78.8700309
+  },
+  {
+    "id": "51942594489",
+    "name": "Bionic Prosthetics & Orthotics - Mishawaka, IN",
+    "address": "221 Red Coach Dr",
+    "city": "Mishawaka",
+    "state": "IN",
+    "zip": "46545",
+    "phone": "(574) 855-3744",
+    "website": "https://www.bionicpo.com/clinics/mishawaka",
+    "lat": 41.6929078,
+    "lng": -86.1837774
   },
   {
     "id": "55836249141",
