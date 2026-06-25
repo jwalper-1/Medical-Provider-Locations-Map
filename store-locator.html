@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store Locator</title>
+
+  <!-- Leaflet (free, open-source map library) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --brand:       #1a56db;
+      --brand-dark:  #1044bb;
+      --surface:     #ffffff;
+      --bg:          #f4f6fb;
+      --border:      #dde3f0;
+      --text:        #1a202c;
+      --muted:       #6b7a99;
+      --radius:      10px;
+      --shadow:      0 2px 12px rgba(26,86,219,.10);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* ── Widget wrapper ───────────────────────────────────────────────── */
+    #store-locator {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -.02em;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: .9rem;
+      margin-bottom: 20px;
+    }
+
+    /* ── Search bar ───────────────────────────────────────────────────── */
+    .search-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    #zip-input {
+      flex: 1;
+      padding: 11px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      background: var(--surface);
+      transition: border-color .15s;
+      outline: none;
+    }
+    #zip-input:focus { border-color: var(--brand); }
+
+    #search-btn {
+      padding: 11px 22px;
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: .95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s;
+      white-space: nowrap;
+    }
+    #search-btn:hover { background: var(--brand-dark); }
+    #search-btn:disabled { opacity: .55; cursor: default; }
+
+    /* ── Layout: map + list side by side ─────────────────────────────── */
+    .locator-body {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      min-height: 480px;
+    }
+    @media (max-width: 640px) {
+      .locator-body { grid-template-columns: 1fr; }
+      #map { height: 280px; order: -1; }
+    }
+
+    /* ── Results list ─────────────────────────────────────────────────── */
+    #results-panel {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      overflow-y: auto;
+      max-height: 480px;
+    }
+
+    .results-header {
+      padding: 12px 16px;
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--surface);
+    }
+
+    .store-card {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background .1s;
+    }
+    .store-card:last-child { border-bottom: none; }
+    .store-card:hover { background: #f0f4ff; }
+    .store-card.active { background: #e8effe; }
+
+    .store-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .store-name {
+      font-weight: 600;
+      font-size: .95rem;
+      line-height: 1.3;
+    }
+    .store-distance {
+      font-size: .8rem;
+      color: var(--brand);
+      font-weight: 700;
+      white-space: nowrap;
+      margin-top: 2px;
+    }
+    .store-addr {
+      font-size: .82rem;
+      color: var(--muted);
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+    .store-links {
+      margin-top: 6px;
+      display: flex;
+      gap: 12px;
+    }
+    .store-links a {
+      font-size: .78rem;
+      color: var(--brand);
+      text-decoration: none;
+    }
+    .store-links a:hover { text-decoration: underline; }
+
+    .empty-state {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .empty-state .icon { font-size: 2rem; margin-bottom: 8px; }
+
+    /* ── Map ──────────────────────────────────────────────────────────── */
+    #map {
+      border-radius: var(--radius);
+      border: 1.5px solid var(--border);
+      min-height: 480px;
+    }
+
+    /* ── Status bar ───────────────────────────────────────────────────── */
+    #status {
+      font-size: .82rem;
+      color: var(--muted);
+      margin-top: 10px;
+      min-height: 18px;
+      text-align: right;
+    }
+    #status.error { color: #c0392b; }
+  </style>
+</head>
+<body>
+
+<div id="store-locator">
+  <h1>Find a Location Near You</h1>
+  <p class="subtitle">Enter your ZIP code to find the closest stores.</p>
+
+  <div class="search-row">
+    <input id="zip-input" type="text" placeholder="Enter ZIP code (e.g. 48104)"
+           maxlength="10" inputmode="numeric"/>
+    <button id="search-btn">Find Stores</button>
+  </div>
+
+  <div class="locator-body">
+    <div id="results-panel">
+      <div class="empty-state">
+        <div class="icon">📍</div>
+        Enter your ZIP code above to find nearby locations.
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <div id="status"></div>
+</div>
+
+<script>
+// ── CONFIG ────────────────────────────────────────────────────────────────
+const STORES_JSON_URL = "stores.json"; // path to your generated stores.json
+const MAX_RESULTS     = 10;            // how many stores to show
+const MAX_RADIUS_MI   = 100;           // hide stores beyond this distance (set high to always show results)
+
+// ── STATE ─────────────────────────────────────────────────────────────────
+let stores      = [];
+let map         = null;
+let markers     = [];
+let userMarker  = null;
+
+// ── INIT MAP ──────────────────────────────────────────────────────────────
+function initMap() {
+  map = L.map("map").setView([39.5, -98.35], 4); // center on US
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18,
+  }).addTo(map);
+}
+
+// ── LOAD STORES ───────────────────────────────────────────────────────────
+async function loadStores() {
+  try {
+    const resp = await fetch(STORES_JSON_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    stores = await resp.json();
+    setStatus(`${stores.length} locations loaded.`);
+  } catch (e) {
+    setStatus("Could not load store data. Check that stores.json is accessible.", true);
+  }
+}
+
+// ── GEOCODE USER ZIP (Nominatim, free) ───────────────────────────────────
+async function geocodeZip(zip) {
+  const url = `https://nominatim.openstreetmap.org/search?postalcode=${encodeURIComponent(zip)}&countrycodes=us&format=json&limit=1`;
+  const resp = await fetch(url, { headers: { "User-Agent": "StoreLocator/1.0" } });
+  const data = await resp.json();
+  if (!data.length) throw new Error("ZIP code not found");
+  return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+}
+
+// ── HAVERSINE DISTANCE (miles) ────────────────────────────────────────────
+function distanceMi(lat1, lng1, lat2, lng2) {
+  const R = 3958.8;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 +
+            Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+// ── SEARCH HANDLER ────────────────────────────────────────────────────────
+async function doSearch() {
+  const zip = document.getElementById("zip-input").value.trim();
+  if (!zip) return;
+
+  const btn = document.getElementById("search-btn");
+  btn.disabled = true;
+  btn.textContent = "Searching…";
+  setStatus("Looking up your ZIP code…");
+
+  try {
+    const { lat, lng } = await geocodeZip(zip);
+
+    // Calculate distances + sort
+    const ranked = stores
+      .filter(s => s.lat && s.lng)
+      .map(s => ({ ...s, distMi: distanceMi(lat, lng, s.lat, s.lng) }))
+      .sort((a, b) => a.distMi - b.distMi)
+      .filter(s => s.distMi <= MAX_RADIUS_MI)
+      .slice(0, MAX_RESULTS);
+
+    renderResults(ranked);
+    renderMap(lat, lng, ranked);
+    setStatus(`Showing ${ranked.length} nearest location${ranked.length !== 1 ? "s" : ""} to ZIP ${zip}.`);
+  } catch (e) {
+    setStatus("Could not find that ZIP code. Please try again.", true);
+    document.getElementById("results-panel").innerHTML =
+      `<div class="empty-state"><div class="icon">⚠️</div>${e.message}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Find Stores";
+  }
+}
+
+// ── RENDER RESULTS LIST ───────────────────────────────────────────────────
+function renderResults(ranked) {
+  const panel = document.getElementById("results-panel");
+  if (!ranked.length) {
+    panel.innerHTML = `<div class="empty-state"><div class="icon">😕</div>No locations found nearby.</div>`;
+    return;
+  }
+
+  panel.innerHTML = `<div class="results-header">${ranked.length} Nearest Locations</div>` +
+    ranked.map((s, i) => {
+      const addrLine = [s.address, s.city, s.state, s.zip].filter(Boolean).join(", ");
+      const links = [
+        s.phone   ? `<a href="tel:${s.phone}">${s.phone}</a>` : null,
+        s.website ? `<a href="${s.website}" target="_blank" rel="noopener">Website ↗</a>` : null,
+      ].filter(Boolean).join("");
+
+      return `
+        <div class="store-card" id="card-${i}" onclick="focusStore(${i})">
+          <div class="store-card-top">
+            <div class="store-name">${s.name || "Location"}</div>
+            <div class="store-distance">${s.distMi.toFixed(1)} mi</div>
+          </div>
+          <div class="store-addr">${addrLine}</div>
+          ${links ? `<div class="store-links">${links}</div>` : ""}
+        </div>`;
+    }).join("");
+}
+
+// ── RENDER MAP MARKERS ────────────────────────────────────────────────────
+function renderMap(userLat, userLng, ranked) {
+  // Clear old markers
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+  if (userMarker) map.removeLayer(userMarker);
+
+  // User location marker
+  userMarker = L.circleMarker([userLat, userLng], {
+    radius: 8, color: "#1a56db", fillColor: "#1a56db", fillOpacity: 1, weight: 2,
+  }).addTo(map).bindPopup("Your location");
+
+  // Store markers
+  ranked.forEach((s, i) => {
+    const m = L.marker([s.lat, s.lng])
+      .addTo(map)
+      .bindPopup(`<strong>${s.name || "Location"}</strong><br>${s.address || ""}`);
+    m.on("click", () => focusStore(i));
+    markers.push(m);
+  });
+
+  // Fit map to all points
+  const bounds = L.latLngBounds(
+    [[userLat, userLng], ...ranked.map(s => [s.lat, s.lng])]
+  );
+  map.fitBounds(bounds, { padding: [40, 40] });
+}
+
+// ── FOCUS A STORE ─────────────────────────────────────────────────────────
+function focusStore(i) {
+  document.querySelectorAll(".store-card").forEach(c => c.classList.remove("active"));
+  const card = document.getElementById(`card-${i}`);
+  if (card) { card.classList.add("active"); card.scrollIntoView({ behavior: "smooth", block: "nearest" }); }
+  if (markers[i]) { markers[i].openPopup(); map.setView(markers[i].getLatLng(), 13); }
+}
+
+// ── STATUS ────────────────────────────────────────────────────────────────
+function setStatus(msg, isError = false) {
+  const el = document.getElementById("status");
+  el.textContent = msg;
+  el.className = isError ? "error" : "";
+}
+
+// ── KEYBOARD: press Enter to search ──────────────────────────────────────
+document.getElementById("zip-input").addEventListener("keydown", e => {
+  if (e.key === "Enter") doSearch();
+});
+document.getElementById("search-btn").addEventListener("click", doSearch);
+
+// ── BOOT ──────────────────────────────────────────────────────────────────
+initMap();
+loadStores();
+</script>
+</body>
+</html>
